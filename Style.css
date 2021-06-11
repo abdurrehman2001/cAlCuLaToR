@@ -1,14 +1,19 @@
+body{
+    background: linear-gradient(to right , #218f86 , #2cb8ab)
+}
 input{
     font-size: 34px;
      padding: 5px 15px;
-    color:purple;
-    width: 100%;
+    color: #4db6b1;
+    width: 90%;
     height: 100%;
-    border: 0;
     cursor: pointer; 
     margin-bottom: 50px;
     background-color: transparent;
     font-size: 20px;
+    text-align: right;
+    outline: none;
+    border: none;
 }
 .main-box{
     background-color: #020808;
@@ -17,6 +22,13 @@ input{
     width: 272px;
     overflow: hidden;
     box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    margin: 0px auto;
+}
+button:hover{
+    box-shadow:0 0 80px rgba(0,0,0,0.9) ;
+}
+button{
+    border-radius:27px;
 }
 .btn-num{
     width: 70px;
@@ -44,4 +56,13 @@ input{
     margin-left: -5px;
     color: white;
     background: linear-gradient(to right , #348878 , #2db7aa);
+}
+.heading{
+    text-shadow: 4px 3px 3px  SteelBlue;
+    font-family: cursive;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: underline;
 }
