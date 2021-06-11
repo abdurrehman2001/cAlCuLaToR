@@ -1,0 +1,47 @@
+input{
+    font-size: 34px;
+     padding: 5px 15px;
+    color:purple;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    cursor: pointer; 
+    margin-bottom: 50px;
+    background-color: transparent;
+    font-size: 20px;
+}
+.main-box{
+    background-color: #020808;
+    padding-top: 70px;
+    border-radius: 10px;
+    width: 272px;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+.btn-num{
+    width: 70px;
+    height: 55px;
+    border: 1px solid #031016;
+    background-color: transparent;
+    margin-left: -5px;
+    color: white;
+    background: linear-gradient(125deg , #030909 , #142d38);
+}
+.btn-sum{
+    width: 70px;
+    height: 55px;
+    border: 1px solid #031016;
+    background-color: transparent;
+    margin-left: -5px;
+    color: white;
+    background-color: #0e4e50;
+}
+.btn-res{
+    width: 139px;
+    height: 55px;
+    border: 1px solid #031016;
+    background-color: transparent;
+    margin-left: -5px;
+    color: white;
+    background: linear-gradient(to right , #348878 , #2db7aa);
+}
