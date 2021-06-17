@@ -69,7 +69,7 @@ button{
 
 @media only screen and (max-width: 400px) {
     body{
-    background: linear-gradient(to right , #4f6361 , #0c5e55)
+    background: linear-gradient(to right , #bfcecd , #0eb6a2)
 }
     input{
         width: 80%;
